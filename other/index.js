@@ -95,7 +95,7 @@ const animations = [
     },
     {
         name: 'BUTTERFLY',
-        frames: ['other/images/bfly01.png', 'other/images/bfly02.png', '.other/images/bfly03.png', 'other/images/bfly04.png'],
+        frames: ['other/images/bfly01.png', 'other/images/bfly02.png', 'other/images/bfly03.png', 'other/images/bfly04.png'],
         width: '420px',
         interval: 240
 
