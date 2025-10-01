@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'SchoolSafetyWave';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolR.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SchoolSafetyWave';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+body{margin: 0;
+	transition: background-color 0.2s;
+	color: blue;
+	}
+
+	.title{
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		transform: translate(-50%, -50%);
+		left: 50%; top: 15%;
+		-webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+	    border-radius: 5rem;
+
+	    padding: 10px 30px;
+
+	    font-family: 'SchoolSafetyWave'; 
+		font-weight: 400; 
+		font-size: 3.5rem;
+		text-align: center;
+		color: white;
+	}
+
+	#b-box{
+			position: absolute;
+	        width: 850px;
+	        height: 500px;
+	        transform: translate(-50%, -50%);
+	        left: 50%; top: 50%;
+	        -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+	        border-radius: 3rem;
+	        transition: background-color 1s;
+	}
+
+	#slider-image {
+    position: absolute;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    cursor: pointer; 
+    border-radius: 1rem;
+    transition: opacity 0.3s, width 0.3s, height 0.3s;
+}
+
+	#name{
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	    width: 250px;
+	    height: 50px;
+	    left: 50%; top: 80%;
+	    transform: translate(-50%, -50%);
+	    background: rgba(0, 0, 0, 0.35);
+	    -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+	    border-radius: 5rem;
+
+	    font-family: "Orbitron", sans-serif;
+		font-weight: 700; color: white;
+	}
+
+	#background-container {
+		position: fixed;
+	    transform: translate(-50%, -50%);
+	 	left: 50%;
+	   	top: 50%; 
+	   	width: calc(100% + 300px); 
+		height: calc(100% + 200px);
+	    
+	    display: flex;
+	    justify-content: center;
+	    flex-wrap: wrap;
+	    z-index: -1;
+	}
+
+	.lyric-tile {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 20rem;
+	    font-size: 0.6rem;
+	    word-break: break-all;
+	    transition: background-color 1s, color 1s;
+	    font-family: "Orbitron", sans-serif;
+		font-weight: 500;
+		transition: width 0.4s, height 0.4s, font-size 0.4s;
+	}
+
+	.style-a{
+		background: white;
+		color: blue;
+	}
+	.style-b{
+		background: blue;
+		color: white;
+	}
+	.style-c{
+		background: white;
+		color: #DC143C;
+	}
+
+	.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	  width: 80px;
+	  height: 30px;
+	  padding: 10px;
+	  margin: 10px;
+
+	  border: none;
+	  border-radius: 20px;
+
+	  background: rgba(255,255,255,0.8);
+	  -webkit-backdrop-filter: blur(10px);
+	  backdrop-filter: blur(10px);
+	  box-shadow: 0px 0px 10px rgb(0, 0, 255, 0.6);
+	  cursor: pointer;
+
+	  color: blue;
+
+	}
+
+	.controls{
+		position: fixed;
+		transform: translate(-50%, -50%);
+		left: 6.5%; top: 10%;
+	}
