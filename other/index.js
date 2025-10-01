@@ -60,49 +60,49 @@ function changeTilesRandomly() {
 const animations = [
     {
         name: 'EARTH',
-        frames: ['./other/images/earth0.png', './other/images/earth1.png', './other/images/earth2.png', './other/images/earth3.png', './other/images/earth4.png', './other/images/earth5.png', './other/images/earth6.png', './other/images/earth7.png', './other/images/earth8.png', './other/images/earth9.png', './other/images/earth10.png', './other/images/earth11.png', './other/images/earth12.png', './other/images/earth13.png'],
+        frames: ['other/images/earth0.png', 'other/images/earth1.png', 'other/images/earth2.png', 'other/images/earth3.png', 'other/images/earth4.png', 'other/images/earth5.png', 'other/images/earth6.png', 'other/images/earth7.png', 'other/images/earth8.png', 'other/images/earth9.png', 'other/images/earth10.png', 'other/images/earth11.png', 'other/images/earth12.png', 'other/images/earth13.png'],
         width: '600px',
         interval: 100
 
     },
     {
         name: 'FROG',
-        frames: ['./other/images/frog01.png', './other/images/frog02.png', './other/images/frog03.png', './other/images/frog04.png', './other/images/frog05.png'],
+        frames: ['other/images/frog01.png', 'other/images/frog02.png', 'other/images/frog03.png', 'other/images/frog04.png', 'other/images/frog05.png'],
         width: '400px',
         interval: 150
 
     },
     {
         name: 'MOON',
-        frames: ['./other/images/moon01.png', './other/images/moon02.png', './other/images/moon03.png', './other/images/moon04.png', './other/images/moon05.png', './other/images/moon06.png', './other/images/moon07.png', './other/images/moon08.png'],
+        frames: ['other/images/moon01.png', 'other/images/moon02.png', 'other/images/moon03.png', 'other/images/moon04.png', 'other/images/moon05.png', 'other/images/moon06.png', 'other/images/moon07.png', 'other/images/moon08.png'],
         width: '200px',
         interval: 140
 
     },
     {
         name: 'HUMAN',
-        frames: ['./other/images/human01.png', './other/images/human02.png', './other/images/human03.png', './other/images/human04.png', './other/images/human05.png', './other/images/human06.png', './other/images/human07.png'],
+        frames: ['other/images/human01.png', 'other/images/human02.png', 'other/images/human03.png', 'other/images/human04.png', 'other/images/human05.png', 'other/images/human06.png', 'other/images/human07.png'],
         width: '300px',
         interval: 180
 
     },
     {
         name: 'CAKE',
-        frames: ['./other/images/cake01.png', './other/images/cake02.png', './other/images/cake03.png', './other/images/cake04.png', './other/images/cake05.png', './other/images/cake06.png'],
+        frames: ['other/images/cake01.png', 'other/images/cake02.png', 'other/images/cake03.png', 'other/images/cake04.png', 'other/images/cake05.png', 'other/images/cake06.png'],
         width: '400px',
         interval: 240
 
     },
     {
         name: 'BUTTERFLY',
-        frames: ['./other/images/bfly01.png', './other/images/bfly02.png', './other/images/bfly03.png', './other/images/bfly04.png'],
+        frames: ['other/images/bfly01.png', 'other/images/bfly02.png', '.other/images/bfly03.png', 'other/images/bfly04.png'],
         width: '420px',
         interval: 240
 
     },
     {
         name: 'CLOCK',
-        frames: ['./other/images/clock01.png', './other/images/clock02.png', './other/images/clock03.png', './other/images/clock04.png', './other/images/clock05.png', './other/images/clock06.png'],
+        frames: ['other/images/clock01.png', 'other/images/clock02.png', 'other/images/clock03.png', 'other/images/clock04.png', 'other/images/clock05.png', 'other/images/clock06.png'],
         width: '400px',
         interval: 150
 
